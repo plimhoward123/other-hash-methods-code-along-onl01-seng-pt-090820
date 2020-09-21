@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  puts groceries.min
+  groceries.min.each do | key, value |
+    puts value
 end
