@@ -9,11 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  minval = ""
-  groceries.each do |key, value|
-    if(key.min > minval)
-      minval = value
-    end
-  end
-  return minval
+  puts groceries.min
 end
