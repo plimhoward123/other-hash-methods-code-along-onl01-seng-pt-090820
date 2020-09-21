@@ -15,5 +15,5 @@ def get_the_min(groceries)
       minval = value
     end
   end
-  retunr minval
+  return minval
 end
